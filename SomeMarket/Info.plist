@@ -41,5 +41,11 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>UIAppFonts</key>
+	<array>
+		<string>segoeui.ttf</string>
+		<string>segoeuii_italic.ttf</string>
+		<string>segoeuil_light.ttf</string>
+	</array>
 </dict>
 </plist>

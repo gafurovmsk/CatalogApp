@@ -8,20 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		18BE2B8E1E542E910030D9A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2B8D1E542E910030D9A7 /* AppDelegate.swift */; };
-		18BE2B901E542E910030D9A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2B8F1E542E910030D9A7 /* ViewController.swift */; };
+		18BE2B901E542E910030D9A7 /* CatalogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2B8F1E542E910030D9A7 /* CatalogViewController.swift */; };
 		18BE2B931E542E910030D9A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BE2B911E542E910030D9A7 /* Main.storyboard */; };
 		18BE2B951E542E910030D9A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18BE2B941E542E910030D9A7 /* Assets.xcassets */; };
 		18BE2B981E542E910030D9A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18BE2B961E542E910030D9A7 /* LaunchScreen.storyboard */; };
+		18BE2BA41E543CB00030D9A7 /* TestFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BA01E543CB00030D9A7 /* TestFont.swift */; };
+		18BE2BA71E543CB00030D9A7 /* segoeuil_light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18BE2BA31E543CB00030D9A7 /* segoeuil_light.ttf */; };
+		18BE2BAA1E544F210030D9A7 /* ItemDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BA91E544F210030D9A7 /* ItemDetailsViewController.swift */; };
+		18BE2BAE1E5450D00030D9A7 /* ExtensionCatalogVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BAD1E5450D00030D9A7 /* ExtensionCatalogVC.swift */; };
+		18BE2BB01E5459970030D9A7 /* CatalogTVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BAF1E5459970030D9A7 /* CatalogTVCell.swift */; };
+		18BE2BB21E545B060030D9A7 /* ShopItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BB11E545B060030D9A7 /* ShopItem.swift */; };
+		18BE2BB31E546A0F0030D9A7 /* segoeui.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18BE2BA11E543CB00030D9A7 /* segoeui.ttf */; };
+		18BE2BB41E546A140030D9A7 /* segoeuii_italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18BE2BA21E543CB00030D9A7 /* segoeuii_italic.ttf */; };
+		18BE2BB61E5471A60030D9A7 /* ShopItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BB51E5471A60030D9A7 /* ShopItemManager.swift */; };
+		18BE2BBA1E54891F0030D9A7 /* DataAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BB91E54891F0030D9A7 /* DataAPI.swift */; };
+		18BE2BBC1E54957A0030D9A7 /* TestLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BBB1E54957A0030D9A7 /* TestLabel.swift */; };
+		18BE2BBE1E54987F0030D9A7 /* ExtensionAddConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BBD1E54987E0030D9A7 /* ExtensionAddConstraints.swift */; };
+		18BE2BC11E561C8F0030D9A7 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BC01E561C8F0030D9A7 /* DetailsView.swift */; };
+		18BE2BC31E56390D0030D9A7 /* ExtensionNavigationC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BC21E56390D0030D9A7 /* ExtensionNavigationC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18BE2B8A1E542E910030D9A7 /* SomeMarket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SomeMarket.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18BE2B8D1E542E910030D9A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		18BE2B8F1E542E910030D9A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		18BE2B8F1E542E910030D9A7 /* CatalogViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogViewController.swift; sourceTree = "<group>"; };
 		18BE2B921E542E910030D9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		18BE2B941E542E910030D9A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18BE2B971E542E910030D9A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18BE2B991E542E910030D9A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18BE2BA01E543CB00030D9A7 /* TestFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestFont.swift; path = Fonts/TestFont.swift; sourceTree = "<group>"; };
+		18BE2BA11E543CB00030D9A7 /* segoeui.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeui.ttf; path = Fonts/segoeui.ttf; sourceTree = "<group>"; };
+		18BE2BA21E543CB00030D9A7 /* segoeuii_italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeuii_italic.ttf; path = Fonts/segoeuii_italic.ttf; sourceTree = "<group>"; };
+		18BE2BA31E543CB00030D9A7 /* segoeuil_light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = segoeuil_light.ttf; path = Fonts/segoeuil_light.ttf; sourceTree = "<group>"; };
+		18BE2BA91E544F210030D9A7 /* ItemDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsViewController.swift; sourceTree = "<group>"; };
+		18BE2BAD1E5450D00030D9A7 /* ExtensionCatalogVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionCatalogVC.swift; sourceTree = "<group>"; };
+		18BE2BAF1E5459970030D9A7 /* CatalogTVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogTVCell.swift; sourceTree = "<group>"; };
+		18BE2BB11E545B060030D9A7 /* ShopItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopItem.swift; sourceTree = "<group>"; };
+		18BE2BB51E5471A60030D9A7 /* ShopItemManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopItemManager.swift; sourceTree = "<group>"; };
+		18BE2BB91E54891F0030D9A7 /* DataAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataAPI.swift; sourceTree = "<group>"; };
+		18BE2BBB1E54957A0030D9A7 /* TestLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestLabel.swift; sourceTree = "<group>"; };
+		18BE2BBD1E54987E0030D9A7 /* ExtensionAddConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionAddConstraints.swift; sourceTree = "<group>"; };
+		18BE2BC01E561C8F0030D9A7 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		18BE2BC21E56390D0030D9A7 /* ExtensionNavigationC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionNavigationC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +82,92 @@
 		18BE2B8C1E542E910030D9A7 /* SomeMarket */ = {
 			isa = PBXGroup;
 			children = (
+				18BE2BB81E5476680030D9A7 /* Data API */,
+				18BE2BB71E5476550030D9A7 /* Model */,
+				18BE2BAC1E544F390030D9A7 /* Views */,
+				18BE2BAB1E544F2C0030D9A7 /* Controllers */,
+				18BE2BC41E563C5A0030D9A7 /* Extensions */,
+				18BE2BA81E543CB70030D9A7 /* Fonts */,
+				18BE2B9F1E5439810030D9A7 /* Supporting files */,
+				18BE2BBF1E5498F10030D9A7 /* Unused */,
+			);
+			path = SomeMarket;
+			sourceTree = "<group>";
+		};
+		18BE2B9F1E5439810030D9A7 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
 				18BE2B8D1E542E910030D9A7 /* AppDelegate.swift */,
-				18BE2B8F1E542E910030D9A7 /* ViewController.swift */,
-				18BE2B911E542E910030D9A7 /* Main.storyboard */,
 				18BE2B941E542E910030D9A7 /* Assets.xcassets */,
 				18BE2B961E542E910030D9A7 /* LaunchScreen.storyboard */,
 				18BE2B991E542E910030D9A7 /* Info.plist */,
 			);
-			path = SomeMarket;
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		18BE2BA81E543CB70030D9A7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18BE2BA01E543CB00030D9A7 /* TestFont.swift */,
+				18BE2BA11E543CB00030D9A7 /* segoeui.ttf */,
+				18BE2BA21E543CB00030D9A7 /* segoeuii_italic.ttf */,
+				18BE2BA31E543CB00030D9A7 /* segoeuil_light.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
+		18BE2BAB1E544F2C0030D9A7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18BE2B8F1E542E910030D9A7 /* CatalogViewController.swift */,
+				18BE2BAD1E5450D00030D9A7 /* ExtensionCatalogVC.swift */,
+				18BE2BA91E544F210030D9A7 /* ItemDetailsViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		18BE2BAC1E544F390030D9A7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18BE2B911E542E910030D9A7 /* Main.storyboard */,
+				18BE2BAF1E5459970030D9A7 /* CatalogTVCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		18BE2BB71E5476550030D9A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				18BE2BB11E545B060030D9A7 /* ShopItem.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		18BE2BB81E5476680030D9A7 /* Data API */ = {
+			isa = PBXGroup;
+			children = (
+				18BE2BB51E5471A60030D9A7 /* ShopItemManager.swift */,
+				18BE2BB91E54891F0030D9A7 /* DataAPI.swift */,
+			);
+			name = "Data API";
+			sourceTree = "<group>";
+		};
+		18BE2BBF1E5498F10030D9A7 /* Unused */ = {
+			isa = PBXGroup;
+			children = (
+				18BE2BC01E561C8F0030D9A7 /* DetailsView.swift */,
+				18BE2BBB1E54957A0030D9A7 /* TestLabel.swift */,
+			);
+			name = Unused;
+			sourceTree = "<group>";
+		};
+		18BE2BC41E563C5A0030D9A7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				18BE2BBD1E54987E0030D9A7 /* ExtensionAddConstraints.swift */,
+				18BE2BC21E56390D0030D9A7 /* ExtensionNavigationC.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +231,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BE2B981E542E910030D9A7 /* LaunchScreen.storyboard in Resources */,
+				18BE2BA71E543CB00030D9A7 /* segoeuil_light.ttf in Resources */,
+				18BE2BB41E546A140030D9A7 /* segoeuii_italic.ttf in Resources */,
+				18BE2BB31E546A0F0030D9A7 /* segoeui.ttf in Resources */,
 				18BE2B951E542E910030D9A7 /* Assets.xcassets in Resources */,
 				18BE2B931E542E910030D9A7 /* Main.storyboard in Resources */,
 			);
@@ -137,8 +246,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18BE2B901E542E910030D9A7 /* ViewController.swift in Sources */,
+				18BE2BAE1E5450D00030D9A7 /* ExtensionCatalogVC.swift in Sources */,
+				18BE2BA41E543CB00030D9A7 /* TestFont.swift in Sources */,
+				18BE2BB21E545B060030D9A7 /* ShopItem.swift in Sources */,
+				18BE2B901E542E910030D9A7 /* CatalogViewController.swift in Sources */,
+				18BE2BB61E5471A60030D9A7 /* ShopItemManager.swift in Sources */,
+				18BE2BC11E561C8F0030D9A7 /* DetailsView.swift in Sources */,
+				18BE2BB01E5459970030D9A7 /* CatalogTVCell.swift in Sources */,
+				18BE2BBC1E54957A0030D9A7 /* TestLabel.swift in Sources */,
+				18BE2BAA1E544F210030D9A7 /* ItemDetailsViewController.swift in Sources */,
+				18BE2BBA1E54891F0030D9A7 /* DataAPI.swift in Sources */,
 				18BE2B8E1E542E910030D9A7 /* AppDelegate.swift in Sources */,
+				18BE2BBE1E54987F0030D9A7 /* ExtensionAddConstraints.swift in Sources */,
+				18BE2BC31E56390D0030D9A7 /* ExtensionNavigationC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,7 +324,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -248,7 +368,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
