@@ -23,7 +23,7 @@ class ItemDetailsViewController: UIViewController {
 //    self.navigationController?.navigationBar.barTintColor = .blue
 //    self.navigationController?.navigationBar.tintColor = .white
 //    self.navigationController?.navigationBar.titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
-//    self.navigationController?.setNavigationBarHidden(false, animated: true)
+    self.navigationController?.setNavigationBarHidden(false, animated: true)
     
     if let getItem = pushedItem {
       itemImage.image = UIImage(data:getItem.image)
