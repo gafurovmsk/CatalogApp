@@ -26,6 +26,7 @@
 		18BE2BBE1E54987F0030D9A7 /* ExtensionAddConstraints.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BBD1E54987E0030D9A7 /* ExtensionAddConstraints.swift */; };
 		18BE2BC11E561C8F0030D9A7 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BC01E561C8F0030D9A7 /* DetailsView.swift */; };
 		18BE2BC31E56390D0030D9A7 /* ExtensionNavigationC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BE2BC21E56390D0030D9A7 /* ExtensionNavigationC.swift */; };
+		18BE2BC61E56CF910030D9A7 /* catalog.json in Resources */ = {isa = PBXBuildFile; fileRef = 18BE2BC51E56CF910030D9A7 /* catalog.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		18BE2BBD1E54987E0030D9A7 /* ExtensionAddConstraints.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionAddConstraints.swift; sourceTree = "<group>"; };
 		18BE2BC01E561C8F0030D9A7 /* DetailsView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
 		18BE2BC21E56390D0030D9A7 /* ExtensionNavigationC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionNavigationC.swift; sourceTree = "<group>"; };
+		18BE2BC51E56CF910030D9A7 /* catalog.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = catalog.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				18BE2BA81E543CB70030D9A7 /* Fonts */,
 				18BE2B9F1E5439810030D9A7 /* Supporting files */,
 				18BE2BBF1E5498F10030D9A7 /* Unused */,
+				18BE2BC51E56CF910030D9A7 /* catalog.json */,
 			);
 			path = SomeMarket;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				18BE2B981E542E910030D9A7 /* LaunchScreen.storyboard in Resources */,
+				18BE2BC61E56CF910030D9A7 /* catalog.json in Resources */,
 				18BE2BA71E543CB00030D9A7 /* segoeuil_light.ttf in Resources */,
 				18BE2BB41E546A140030D9A7 /* segoeuii_italic.ttf in Resources */,
 				18BE2BB31E546A0F0030D9A7 /* segoeui.ttf in Resources */,
@@ -422,6 +426,7 @@
 				18BE2B9E1E542E910030D9A7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
