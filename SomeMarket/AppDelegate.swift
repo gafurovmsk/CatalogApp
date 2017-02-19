@@ -7,17 +7,53 @@
 //
 
 import UIKit
+import RealmSwift
+import SwiftyJSON
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
   var window: UIWindow?
 
+  var realm = try! Realm()
 
   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-    // Override point for customization after application launch.
+    
+    
+    
+   updateRealmFromJSON()
+    
+    
     return true
   }
+  
+  
+  func updateRealmFromJSON(){
+    
+    let path = Bundle.main.path(forResource: "catalog", ofType: "json")
+    let jsonData : NSData = try! NSData.init(contentsOfFile: path!)
+    var json = JSON(data: jsonData as Data)
+    
+    let images = json["products"].arrayValue.map({$0["desktop_image"]}.stringValue)
+    let names =  json["products"].arrayValue.map({$0["title"].stringValue})
+    let prices = json["products"].arrayValue.map({$0["price"]["regular"].stringValue})
+    let details = json["products"].arrayValue.map({$0["detail"].stringValue})
+    
+    for (image,name,price,detail) in (images,names,prices, details) {
+      
+      let item = ShopItem()
+      
+      
+    }
+    
+
+  }
+  
+  
+  
+  
+  
+  
 
   func applicationWillResignActive(_ application: UIApplication) {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
