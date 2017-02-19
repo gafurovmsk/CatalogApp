@@ -56,6 +56,14 @@ extension CatalogViewController: UITableViewDelegate, UITableViewDataSource {
     detailsVC.pushedItem = self.catalogItemList[indexPath.row]
   }
   
+  func tableView(_ tableView: UITableView, editActionsForRowAt indexPath: IndexPath) -> [UITableViewRowAction]? {
+    
+    let deleteAction = UITableViewRowAction(style: UITableViewRowActionStyle.destructive, title: "Delete") { (deleteAction, indexPath) -> Void in
+      DataAPI.sharedInstance.deleteItem(at: indexPath.row)
+    }
+    return [deleteAction]
+  }
+  
 }
 
 
