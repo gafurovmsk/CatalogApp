@@ -2,22 +2,36 @@
 //  ShopItem.swift
 //  SomeMarket
 //
-//  Created by Nik on 18.02.17.
+//  Created by Nik on 15.02.17.
 //  Copyright © 2017 Gafurov. All rights reserved.
 //
 
 import Foundation
-import RealmSwift
+import UIKit
 
-class ShopItem: Object {
+
+class ShopItem: NSObject {
   
-  dynamic var image: Data = Data()
-  dynamic var name = ""
-  dynamic var price = ""
-  dynamic var details = ""
+  var image: Data
+  var name: String
+  var price: String
+  var details: String
   
+  init(itemWith name:String, price: String, details: String){
+    self.name = name
+    self.price = price
+    self.details = details
+    // для ситуации если нет фото
+    self.image = UIImagePNGRepresentation(UIImage(named: "blueCart.png")!)!
+    
+  }
   
-  
+  init(itemWithImage image:Data, name:String, price: String, details: String ){
+    self.image = image
+    self.name = name
+    self.price = price
+    self.details = details
+  }
   
   override var description: String {
     return "the \(self.name) item\n"
@@ -26,6 +40,3 @@ class ShopItem: Object {
   }
   
 }
-
-
-

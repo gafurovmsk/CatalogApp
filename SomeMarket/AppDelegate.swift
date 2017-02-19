@@ -34,17 +34,23 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let jsonData : NSData = try! NSData.init(contentsOfFile: path!)
     var json = JSON(data: jsonData as Data)
     
-    let images = json["products"].arrayValue.map({$0["desktop_image"]}.stringValue)
+    let images = json["products"].arrayValue.map({$0["desktop_image"].stringValue})
     let names =  json["products"].arrayValue.map({$0["title"].stringValue})
     let prices = json["products"].arrayValue.map({$0["price"]["regular"].stringValue})
     let details = json["products"].arrayValue.map({$0["detail"].stringValue})
     
-    for (image,name,price,detail) in (images,names,prices, details) {
+    for index in 0 ..< images.count {
       
-      let item = ShopItem()
-      
-      
+      let item = ShopItemRealm()
+      item.image = UIImagePNGRepresentation(UIImage(named: "blueCart.png")!)!
+      item.name = names[index]
+      item.price = prices[index]
+      item.details = details[index]
+      try! realm.write {
+        realm.add(item,update: true)
+      }
     }
+    
     
 
   }

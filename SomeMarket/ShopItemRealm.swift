@@ -2,7 +2,7 @@
 //  ShopItemRealm.swift
 //  SomeMarket
 //
-//  Created by Nik on 19.02.17.
+//  Created by Nik on 18.02.17.
 //  Copyright © 2017 Gafurov. All rights reserved.
 //
 
@@ -10,10 +10,24 @@ import Foundation
 import RealmSwift
 
 class ShopItemRealm: Object {
-    
-// Specify properties to ignore (Realm won't persist these)
-    
-//  override static func ignoredProperties() -> [String] {
-//    return []
-//  }
+  
+  dynamic var id: String = NSUUID().uuidString
+  dynamic var image: Data = Data()
+  dynamic var name = ""
+  dynamic var price = ""
+  dynamic var details = ""
+
+  override var description: String {
+    return "the \(self.name) item\n"
+      + "with \(self.price) price\n"
+      + "and description:\(self.details)\n"
+  }
+  
+  override static func primaryKey() -> String? {
+    return "id"
+  }
+  
 }
+
+
+
