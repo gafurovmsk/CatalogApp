@@ -12,12 +12,14 @@ import UIKit
 
 class ShopItem: NSObject {
   
+  var id:String
   var image: Data
   var name: String
   var price: String
   var details: String
   
-  init(itemWith name:String, price: String, details: String){
+  init(itemWith id:String, name:String, price: String, details: String){
+    self.id = id
     self.name = name
     self.price = price
     self.details = details
@@ -26,8 +28,9 @@ class ShopItem: NSObject {
     
   }
   
-  init(itemWithImage image:Data, name:String, price: String, details: String ){
+  init(itemWithImage image:Data, id:String, name:String, price: String, details: String ){
     self.image = image
+    self.id = id
     self.name = name
     self.price = price
     self.details = details
