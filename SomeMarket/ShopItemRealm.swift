@@ -11,7 +11,7 @@ import RealmSwift
 
 class ShopItemRealm: Object {
   
-  dynamic var id: String = NSUUID().uuidString
+  dynamic var id: String = NSUUID().uuidString // id generator will increase copies of json file. will be refactor after adding networking
   dynamic var image: Data = Data()
   dynamic var name = ""
   dynamic var price = ""
